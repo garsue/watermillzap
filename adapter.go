@@ -10,6 +10,10 @@ type Logger struct {
 	fields  watermill.LogFields
 }
 
+func NewLogger(z *zap.Logger) watermill.LoggerAdapter {
+	return &Logger{backend: z}
+}
+
 func (l *Logger) Error(msg string, err error, fields watermill.LogFields) {
 	fields = l.fields.Add(fields)
 	fs := make([]zap.Field, 0, len(fields)+1)
