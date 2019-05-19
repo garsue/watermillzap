@@ -1,6 +1,7 @@
 [![GoDoc](https://godoc.org/github.com/garsue/watermillzap?status.svg)](https://godoc.org/github.com/garsue/watermillzap)
 [![CircleCI](https://circleci.com/gh/garsue/watermillzap.svg?style=svg)](https://circleci.com/gh/garsue/watermillzap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/garsue/watermillzap)](https://goreportcard.com/report/github.com/garsue/watermillzap)
+[![Release](https://img.shields.io/github/release/garsue/watermillzap.svg)](https://github.com/garsue/watermillzap/releases/latest)
 
 # watermillzap
 
