@@ -3,3 +3,7 @@
 # watermillzap
 
 watermillzap provides the implementation of `watermill.LoggerAdapter` using [go.uber.org/zap](https://github.com/uber-go/zap).
+
+## Notice
+
+`Trace` writes debug log instead of trace log because zap does not support trace level logging.
