@@ -1,4 +1,4 @@
-module watermillzap
+module github.com/garsue/watermillzap
 
 go 1.12
 
