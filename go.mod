@@ -3,7 +3,7 @@ module github.com/garsue/watermillzap
 go 1.19
 
 require (
-	github.com/ThreeDotsLabs/watermill v1.3.2
+	github.com/ThreeDotsLabs/watermill v1.3.3
 	go.uber.org/zap v1.25.0
 )
 
